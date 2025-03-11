@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card-container {
+    display: flex;
+    gap: 5px; /* Spacing between cards */
+    flex-wrap: wrap; /* Ensure responsiveness */
+  }
+  
+  .card {
+    background-color: azure;
+    width: 450px; /* Adjust to your preferred size */
+    border: 2px solid #1ba354;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%; /* Ensures all images fill the card width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Crops images while maintaining aspect ratio */
+    border-bottom: 1px solid #1ba354;
+  }
