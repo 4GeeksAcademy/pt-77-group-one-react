@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card-container {  
+    display: flex;
+    gap: 5px; 
+    flex-wrap: wrap; 
+  }
+  
+  .card {
+    background-color: azure;
+    width: 450px; 
+    border: 2px solid #1ba354;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #1ba354;
+  }
