@@ -1,13 +1,12 @@
 import React from "react";
+import Jumbo from "./Jumbo";
 import Card from './Card';
-
-
 const Home = () => {
 	return (
 		<div className="text-center">
 			{/*  navbar */}
 			
-			{/*  jumbotron */}
+			<Jumbo></Jumbo>
 			
 			{/*  card */}
 			<div className="d-flex">
