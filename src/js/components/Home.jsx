@@ -12,7 +12,7 @@ const Home = () => {
 			<Jumbo></Jumbo>
 			
 			{/*  card */}
-			<div className="d-flex">
+			<div className="d-flex overflow-auto w-75 m-auto">
 				<Card img={"https://townsquare.media/site/295/files/2021/05/10-Years-collage.jpg"}  
 				title={"Most Popular Bands of 2025"} 
 				content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."} />
