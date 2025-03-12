@@ -9,15 +9,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-.card-container {
+.card-container {  
     display: flex;
-    gap: 5px; /* Spacing between cards */
-    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 5px; 
+    flex-wrap: wrap; 
   }
   
   .card {
     background-color: azure;
-    width: 450px; /* Adjust to your preferred size */
+    width: 450px; 
     border: 2px solid #1ba354;
     border-radius: 8px;
     overflow: hidden;
@@ -25,8 +25,8 @@
   }
   
   .card img {
-    width: 100%; /* Ensures all images fill the card width */
-    height: 300px; /* Set a fixed height */
-    object-fit: cover; /* Crops images while maintaining aspect ratio */
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
     border-bottom: 1px solid #1ba354;
   }

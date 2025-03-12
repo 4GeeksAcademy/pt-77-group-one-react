@@ -8,9 +8,11 @@ const Card = (props) => {
                 <img src={props.img} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <h5 className="card-title">{props.title}</h5>
-                    <p className="card-text">{props.content}</p>
+                    <p className="card-text">{props.content}</p> 
+                    </div>
+                <div class="card-footer">
                     <a href="#" className="btn btn-dark">See more...</a>
-                </div>
+                </div>  
             </div>       
         </div>
     );

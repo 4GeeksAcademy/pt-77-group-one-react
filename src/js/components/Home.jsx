@@ -23,8 +23,7 @@ const Home = () => {
 				<Card img={"https://notjustok.com/wp-content/uploads/2024/12/The-20-best-Afrobeats-artists-of-2024-scaled.jpg"} 
 				title={"Best AfroBeats Artists"} 
 				content={"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}/>
-			</div>
-			
+			</div>			
 			
 			{/*  footer */}
 			
