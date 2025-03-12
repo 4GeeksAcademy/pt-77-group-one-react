@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./navbar"
 import Jumbo from "./Jumbo";
 import Card from './Card';
+import Footer from './Footer'
 const Home = () => {
 	return (
 		<div className="text-center">
@@ -27,6 +28,7 @@ const Home = () => {
 			</div>			
 			
 			{/*  footer */}
+			<Footer/>
 			
 		</div>
 	);
