@@ -4,13 +4,13 @@ import Card from './Card';
 
 const Home = () => {
 	return (
-		<div className="text-center">
+		<div className="text-center mx-auto">
 			{/*  navbar */}
 			
 			{/*  jumbotron */}
 			
 			{/*  card */}
-			<div className="d-flex">
+			<div className="d-flex w-75 overflow-auto m-auto">
 				<Card img={"https://townsquare.media/site/295/files/2021/05/10-Years-collage.jpg"}  
 				title={"Most Popular Bands of 2025"} 
 				content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."} />
